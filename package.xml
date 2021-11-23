@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>kaitai_struct_runtime_vendor</name>
+  <version>0.10.0</version>
+  <description>
+    CMake Wrapper around Kaitai Struct C++ Runtime.
+  </description>
+  <maintainer email="russ@rw.id.au">Russ Webber</maintainer>
+  <license>Proprietary</license>
+  <license>MIT</license>
+
+  <url type="website">https://github.com/kaitai-io/kaitai_struct_cpp_stl_runtime</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
